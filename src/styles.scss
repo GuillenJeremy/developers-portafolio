@@ -1,7 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+$black: #090809;
+$white: #FFF;
+$primary-color: #E27144;
+
 body {
   margin: 0;
   width: 100vw;
   height: 100vh;
   overflow-y: auto;
+}
+
+.has-text-centered {
+  text-align: center;
+}
+
+.white-bg {
+  background: $white;
+
 }
