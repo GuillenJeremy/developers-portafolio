@@ -3,6 +3,7 @@
 $black: #090809;
 $white: #FFF;
 $primary-color: #E27144;
+$font: 'Prompt';
 
 body {
   margin: 0;
@@ -17,5 +18,33 @@ body {
 
 .white-bg {
   background: $white;
+}
 
+.white-text {
+  color: $white;
+}
+
+.medium-text,
+.small-text,
+.big-text {
+  font-family: $font;
+}
+
+.medium-text {
+  font-size: 18px;
+}
+
+.small-text {
+  font-size: 15px;
+}
+
+.semibold {
+  font-weight: 500;
+}
+
+.flex {
+  display: flex;
+  &.v-axis {
+    flex-direction: column;
+  }
 }
