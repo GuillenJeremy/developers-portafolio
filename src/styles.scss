@@ -8,6 +8,16 @@ $font: 'Prompt';
 body {
   margin: 0;
   overflow-y: auto;
+  font-family: 'Promt';
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
 }
 
 .has-text-centered {
@@ -24,8 +34,17 @@ body {
 
 .medium-text,
 .small-text,
+.huge-text,
 .big-text {
   font-family: $font;
+}
+
+.huge-text {
+  font-size: 36px;
+}
+
+.big-text {
+  font-size: 30px;
 }
 
 .medium-text {
@@ -42,6 +61,7 @@ body {
 
 .flex {
   display: flex;
+
   &.v-axis {
     flex-direction: column;
   }
@@ -56,6 +76,7 @@ body {
   border: none;
   padding-left: .8em;
   padding-right: .8em;
+
   &.blue-button {
     background: #00C3EA;
   }
