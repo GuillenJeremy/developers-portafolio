@@ -4,7 +4,7 @@
   height: 90px;
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  grid-template-columns: max-content minmax(200px, 1fr);
   align-items: center;
   padding: 0 1em;
 }

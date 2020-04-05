@@ -46,3 +46,17 @@ body {
     flex-direction: column;
   }
 }
+
+.relative {
+  position: relative;
+}
+
+.button {
+  border-radius: 30px;
+  border: none;
+  padding-left: .8em;
+  padding-right: .8em;
+  &.blue-button {
+    background: #00C3EA;
+  }
+}
